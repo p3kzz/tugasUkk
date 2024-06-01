@@ -1,0 +1,902 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.content {
+    margin: 77px 0px 0px 200px;
+    padding: 30px;
+    min-height: 520px;
+}
+nav{
+     display: flex;
+     background-color: rgb(153, 12, 31);
+     justify-content: space-between;
+     flex-direction: row;
+     padding: 0px 35px;
+       /* padding: 20px 0;*/
+    color: white;
+    height: 80px;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 200;
+}
+
+nav .logo{
+    font-size: 1.5em;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    width: 40%;
+    /* justify-content: space-between; */
+    flex-direction: row;
+}
+nav ul li {
+    margin: 0px 15px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;  
+}
+body .yuke{
+    padding-top: 50px;
+    margin-top: 80px;
+    background-color: rgba(159,1,0,255);
+    height: 500px;
+}
+body .yuke  h5{
+    font-size: 2.7em;
+    color: #000000;
+    padding-left: 25px;  
+    background-color:#fff;
+    width: 800px;
+    height: 300px;
+    margin-top: -38px;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding-top: 70px;
+}
+body .uke{
+    width: 500px;
+    height: 500px;
+    margin-left:820px;
+    margin-top: -380px;
+}
+.navbar .oke {
+    margin-right: 50px;
+}
+.navbar .oke .logout {
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    align-items: center;
+    font-size: 18px;
+}
+.navbar .oke .logout i {
+    margin-right: 5px;
+}
+body .konten {
+    padding-top: 80px;
+}
+body .carousel.slide{
+    /* margin-top: 60px; */
+    width: 100%;
+    height: 600px;
+    margin: auto;
+}
+body .carousel.slide img {
+    height: 530px;
+}
+body .carousel.slide .carousel-inner .carousel-caption h4,
+body .carousel.slide .carousel-inner .carousel-caption p {
+    color:black;
+}
+body .form-shadow{
+    height: 400px;
+    padding-left: 880px;
+    margin-top: -50px;
+
+}
+body .col-md-10.apa {
+    width: 100%;
+    margin-top: -50px;
+}
+
+body .col-md-10.apa .media-body{
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 800px;
+    margin-top: -350px;
+    position: relative;
+}
+body .uhuy h4{
+    margin-top: 200px;
+    color: #000;
+    text-align: center;
+}
+/* body .yaya{
+    height: 300px;  
+    padding-left: 750px;
+    margin-top: -200px;
+    display: block;   
+}
+body .pe h1{
+    color: rgb(247, 242, 242);
+    margin-top: 300px;
+    text-align: center;
+}
+body .pe h2{
+    color: rgb(247, 242, 242);
+    margin-top: 10px;
+    text-align: center;
+}
+body .pe .pi{
+    width: 100%;
+    position: fixed;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+} */
+body footer {
+    background-color: rgb(153, 12, 31);
+    height: 100px;
+    margin-top: 50px ;
+}
+body footer p{
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+}
+body footer {
+    display: grid;
+    justify-self: center center;
+    padding: 0px;
+}
+
+.box_login {
+    padding-top: 150px;
+
+}
+.box_login .bg{
+    width: 100%;
+    position: fixed;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1; 
+}
+.box_y center h4{
+    margin-bottom: 20px;
+}
+.box_y{
+    width: 500px;
+    height: 400px;
+    background-color: rgb(192, 30, 52);
+    padding: 5%;
+    padding-top: 30px;
+    margin:  auto;
+    /* border: 2px solid white; */
+    /* background: rgba(78, 92, 92, 0.4); */
+}
+.btn{
+    width: 100%;
+}
+.box_regis{
+    padding-top: 80px;
+}
+.box_regis .bg{
+    width: 100%;
+    position: fixed;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+}
+.box{
+    width: 500px;
+    height: 550px;
+    background-color: rgb(192, 30, 52);
+    padding: 2%;
+    margin:  auto;
+    border: 2px solid white;
+}
+/* lapor */
+.apa1 {
+    background-color: #fff;
+    width: 800px;
+    margin-left: 300px;
+    border-radius: 10px;
+}
+form.apa {
+    width: 100%;
+    margin-left: 35px;
+    width: 700px;
+}
+div .judul{
+    /*padding: 10px;*/
+    margin-left: 270px;
+    margin-top: 100px;
+    /*padding-left: 100px;*/
+    text-align: center;
+}
+div .judul h6{
+    font-size: 2em;
+    border-bottom: 1.5px solid #000; 
+    /* width: 100%; */
+}
+.ya .bg{
+    width: 100%;
+    position: fixed;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+}
+
+
+/* lihatlaporan */
+.lihat_laporan {
+    padding-top: 100px;
+    margin-top: 20px;
+    width: 65%;
+    padding-left: 20px;
+    
+}
+.lihat_laporan .bg {
+    width: 100%;
+    position: fixed;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+}
+.lihat_laporan table {
+    margin-bottom: 35px;
+    background: #fff;
+    width: 100%;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+.lihat_laporan table tr td {
+    padding: 7px;
+}
+.lihat_laporan table tr td:nth-child(1){
+    width: 150px;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+}
+.lihat_laporan table tr td:nth-child(1) p{
+    position: absolute;
+    right: 0px;
+    top: 6px;
+}
+.lihat_laporan table tr td:nth-child(2){
+    padding-left: 5px;
+    width: 100%;
+}
+.lihat_laporan table tr td button {
+    width: 100px;
+    float: right;
+}
+.lihat_laporan table tr td button a{
+    text-decoration: none;
+    color: #fff;
+}
+/* lihatlaporanp1 */
+.ya h6{
+    font-size: 2em;
+}
+.lihat_laporan1 {
+    padding-top: 100px;
+    margin-top: -80px;
+    width: 65%;
+    padding-left: 20px;
+}
+.ya .mt-3{
+    width: 400px;
+    position: absolute;
+    right: 20px;
+    top: 90px;
+}
+.ya .btn11{
+    width: 40px;
+    background-color: rgba(25,135,84,255);
+}
+.ya .fa-magnifying-glass{
+    font-size: 25px;
+    margin-left: -5px;
+    color: #fff;
+}
+.lihat_laporan1 {
+    position: relative;
+}
+.lihat_laporan1 table {
+    margin-bottom: 35px;
+    background: #fff;
+    width: 100%;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    position: relative;
+}
+.lihat_laporan1 table .atas {
+    position: absolute;
+    background: #808080;
+    border-top-right-radius: 5px;
+    top: 0px;
+    right: 0px;
+}
+.lihat_laporan1 table .atas .lebel {
+    padding: 5px;
+    width: 110px;
+}
+.lihat_laporan1 table tr td {
+    padding: 7px;
+}
+.lihat_laporan1 table tr td:nth-child(1){
+    width: 150px;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+}
+.lihat_laporan1 table tr td:nth-child(1) p{
+    position: absolute;
+    padding: 7px;
+    right: 0px;
+    top: 0px;
+}
+.lihat_laporan1 table tr td:nth-child(2){
+    padding-left: 10px;
+    width: 100%;
+}
+.lihat_laporan1 table tr td button {
+    width: 100px;
+    float: right;
+}
+.lihat_laporan1 table tr td button a{
+    text-decoration: none;
+    color: #fff;
+}
+.lihat_laporan1 .btn3{
+    width: 40px;
+    margin-bottom: 10px;
+    background-color: rgba(25,135,84,255);
+}
+.lihat_laporan1 .fa-file-pdf{
+    font-size: 30px;
+    margin-left: -4px;
+    color: #fff;
+}
+
+/* detaillaporanmasyrakat */
+.detail_laporan{
+    position: relative;
+    margin-top: 70px;
+    padding-left: 10px;
+}
+/* .detail_laporan a{
+    text-decoration: none;
+    color: black;
+}
+.detail_laporan .card .btn.apa a{
+    text-decoration: none;
+    color: white;
+}
+.detail_laporan .kosong{
+    width: 100%;
+    height: 455px;
+    display: grid;
+    place-items: center center;
+    background: rgb(255, 255, 255, 0);
+} */
+.detail_laporan .card{
+    box-shadow: 0px 0px 5px rgb(0,0,0,0.3);
+    margin-bottom: 20px;
+    padding-bottom: 35px;
+    position: relative;
+}
+.detail_laporan .card .card_body h5{
+    margin-left: 10px;
+    font-size: 1.2em;
+}
+.detail_laporan .card table {
+    margin-bottom: 35px;
+}
+.detail_laporan .card table tr td:nth-child(1){
+    width: 150px;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    padding-left: 10px;
+}
+.detail_laporan .card table tr td:nth-child(1) p{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+.detail_laporan .card table tr td:nth-child(2) {
+    padding-left: 7px;
+}
+.detail_laporan .card .atas {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+}
+.detail_laporan .card .atas .lebel {
+    background: rgb(211, 211, 211);
+    padding: 10px;
+    text-align: center;
+    color: black;
+    font-size: 13px;
+    border-top-right-radius: 6px;
+}
+.detail_laporan .card a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.detail_laporan .card a:hover{
+    color: rgb(99, 99, 99);
+}
+.detail_laporan .card .aksi {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+.detail_laporan .card .aksi .btn {
+    width: 100px;
+}
+.detail_laporan .card table tr td img {
+    max-width: 100px;
+    max-height: 150px;
+    margin-bottom: 20px;
+}
+.mb-3 .form1 h6{
+    font-size: 1em;
+    margin-left: -15px;
+}
+.mb-3 p{
+    margin-left: 10px;
+}
+
+/* laporanmasuk */
+.laporan_masuk .card table {
+    margin-top: -10px;
+    margin-bottom: 35px;
+}
+.laporan_masuk .card{
+    box-shadow: 0px 0px 5px rgb(0,0,0,0.5);
+}
+.laporan_masuk .card h6{
+ margin-left: 10px;
+ padding-top: 10px;
+ padding-left: 10px;
+}
+.laporan_masuk .card hr{
+    width: 100%;
+    margin-top: -5px;
+}
+.laporan_masuk .card .atas {
+    position: absolute;
+    background: #808080;
+    border-top-right-radius: 5px;
+    top: -1px;
+    right: -1px;
+}
+.laporan_masuk .card .atas .lebel {
+    padding: 5px;
+    width: 110px;
+}
+.laporan_masuk .card .laporan table tr td {
+    padding-bottom: 5px;
+}
+.laporan_masuk .card .laporan table tr td:nth-child(1){
+    width: 150px;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    padding-left: 10px;
+    
+}
+.laporan_masuk .card .laporan table tr td:nth-child(1) p{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    
+}
+.laporan_masuk .card .laporan table tr td:nth-child(2) {
+    padding-left: 10px;
+}
+.laporan_masuk .cord h6{
+    margin-left: 10px;
+}
+.laporan_masuk .tanggapan .btn-dark{
+    width: 100px;
+    margin-left: 10px;
+}
+.laporan_masuk .tanggapan .mb-3{
+    margin-top: 15px;
+    margin-left: 10px;
+    width: 700px;
+}
+.laporan_masuk .tanggapan .form-check{
+    margin-left: 10px;
+}
+.laporan_masuk .btn-success5{
+    width: 40px;
+    margin-bottom: 10px;
+    background-color: rgba(25,135,84,255);
+}
+.laporan_masuk .fa-file-pdf{
+    font-size: 30px;
+    margin-left: -4px;
+    color: #fff;
+}
+body .laporan .lp1{
+    width: 200px;
+    height: 200px;
+}
+.mb-3 .form-label{
+    padding-left: -15px;
+}
+.mb-3 .form1{
+    padding-left: 21px;
+}
+.mb-3 .form-control{
+    width: 700px;
+    margin-left: 20px;
+}
+.aksi button:nth-child(1){
+    width: 100px;
+}
+.aksi button:nth-child(2){
+    width: 100px;
+}
+.aksi button:nth-child(2) a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.aksi button:nth-child(3){
+    width: 100px;
+}
+
+/* datamasyrakat */
+.datamasyarakat h4{
+    font-size: 2em;
+    width: 100%;
+    border-bottom: 1.5px solid #000;
+}
+.btn10{
+    width: 100px;
+    margin-bottom: 10px;
+    background-color: rgba(25,135,84,255);
+}
+.btn10 h6{
+    font-size: 0.9em;
+    color: #f7f6f6;
+    padding-top: 5px;
+}
+
+/* datapetugas */
+.datapetugas h4{
+    font-size: 2em;
+    width: 100%;
+    border-bottom: 1.5px solid #000;
+}
+.btn20{
+    width: 100px;
+    margin-bottom: 10px;
+    background-color: rgba(25,135,84,255);
+}
+.btn20 h6{
+    font-size: 0.9em;
+    color: #faf8f8;
+    padding-top: 5px;
+}
+
+/* semualaporan */
+.semualaporan h4{
+    font-size: 2em;
+    width: 100%;
+    border-bottom: 2px solid #000;
+}
+.float-right .btn-success{
+    width: 40px;
+}
+.float-right .fa-file-pdf{
+    font-size: 30px;
+    margin-left: -4px;
+}
+.float-right table tr td .btn-success{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* laporanproses */
+.laporanproses {
+    padding-top: 100px;
+    margin-top: -80px;
+    width: 65%;
+    padding-left: 20px;
+}
+.yu .mt-3{
+    width: 400px;
+    margin-left: 20px;
+}
+.yu h6{
+    font-size: 2em;
+}
+.laporanproses table {
+    margin-bottom: 35px;
+    background: #fff;
+    width: 100%;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    position: relative;
+}
+.laporanproses table .atas {
+    position: absolute;
+    background: #808080;
+    border-top-right-radius: 5px;
+    top: 0px;
+    right: 0px;
+}
+.laporanproses table .atas .lebel {
+    padding: 5px;
+    width: 110px;
+}
+.laporanproses table tr td {
+    padding: 7px;
+}
+.laporanproses table tr td:nth-child(1){
+    width: 150px;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+}
+.laporanproses table tr td:nth-child(1) p{
+    position: absolute;
+    padding: 7px;
+    right: 0px;
+    top: 0px;
+}
+.laporanproses table tr td:nth-child(2){
+    padding-left: 10px;
+    width: 100%;
+}
+.laporanproses table tr td button {
+    width: 100px;
+    float: right;
+}
+.laporanproses table tr td button a{
+    text-decoration: none;
+    color: #fff;
+}
+.laporanproses .btn3{
+    width: 40px;
+    margin-bottom: 10px;
+    background-color: rgba(25,135,84,255);
+}
+.laporanproses .fa-file-pdf{
+    font-size: 30px;
+    margin-left: -4px;
+    color: #fff;
+}
+
+/* laporanselesai */
+.laporanselesai {
+    padding-top: 100px;
+    margin-top: -80px;
+    width: 65%;
+    padding-left: 20px;
+}
+.yi .mt-3{
+    width: 400px;
+    margin-left: 20px;
+}
+.yi h6{
+    font-size: 2em;
+}
+.laporanselesai table {
+    margin-bottom: 35px;
+    background: #fff;
+    width: 100%;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    position: relative;
+}
+.laporanselesai table .atas {
+    position: absolute;
+    background: #808080;
+    border-top-right-radius: 5px;
+    top: 0px;
+    right: 0px;
+}
+.laporanselesai table .atas .lebel {
+    padding: 5px;
+    width: 110px;
+}
+.laporanselesai table tr td {
+    padding: 7px;
+}
+.laporanselesai table tr td:nth-child(1){
+    width: 150px;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+}
+.laporanselesai table tr td:nth-child(1) p{
+    position: absolute;
+    padding: 7px;
+    right: 0px;
+    top: 0px;
+}
+.laporanselesai table tr td:nth-child(2){
+    padding-left: 10px;
+    width: 100%;
+}
+.laporanselesai table tr td button {
+    width: 100px;
+    float: right;
+}
+.laporanselesai table tr td button a{
+    text-decoration: none;
+    color: #fff;
+}
+.laporanselesai .btn2{
+    width: 40px;
+    margin-bottom: 10px;
+    background-color: rgba(25,135,84,255);
+}
+.laporanselesai .fa-file-pdf{
+    font-size: 30px;
+    margin-left: -4px;
+    color: #fff;
+}
+/* SIDEBAR */
+.offcanvas-header{
+    background-color: rgb(153, 12, 31);
+}
+.offcanvas-body{
+    background-color: rgb(153, 12, 31);
+}
+.sidebar {
+    top: 56px;
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    background-color: rgb(153, 12, 31);
+}
+.sidebar ul {
+    padding: 30px;
+}
+.sidebar ul a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.sidebar ul .list {
+    text-decoration: none;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgb(0,0,0,0.3);
+    color: #fff;
+    display: grid;
+    grid-template-columns: 50px 100px;
+    font-size: 13px;
+    margin-top: 20px;
+}
+.sidebar ul .list li {
+    list-style: none;
+    margin-bottom: 13px;
+}
+.sidebar ul .list:hover {
+    color: #000;
+}
+.sidebar ul .list i {
+    font-size: 25px;
+    text-align: center;
+    margin-right: 10px;
+}
+.sidebar ul .list .apa {
+    margin-bottom: 7px;
+}
+.sidebar .card.card-body {
+    padding: 0px;
+    font-size: 13px;
+    width: 150px;
+}
+.sidebar .card.card-body ul {
+    padding: 10px;
+    padding-left: 20px;
+}
+.sidebar .card.card-body ul li {
+    list-style: disc;
+    line-height: 3;
+}
+.sidebar .card.card-body ul li a {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+    display: block;
+    color: #000;
+    font-weight: 400;
+}
+
+/* beranda */
+.beranda .data{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: #000;
+    background: rgb(235, 235, 235);
+}
+.diti h4{
+    font-size: 2em;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.4);
+}
+.beranda .data .kotak{
+    margin: 0px 10px 20px;
+    width: 343px;
+    height: 150px;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px;
+    position: relative;
+    overflow: hidden;
+    color: rgba(255, 255, 255, 1);
+}
+.beranda .data .kotak .kotak1 {
+    text-align: center;
+}
+.beranda .data .kotak .kotak1 i{
+    font-size: 60px;
+    color: rgba(255, 255, 255, 1);
+}
+.beranda .data .kotak .kotak1 p{
+    /* width: 200px; */
+    font-weight: 600;
+}
+.beranda .data .kotak .kotak2 {
+    position: absolute;
+    width: 345px;
+    height: 35px;
+    padding: 7px;
+    bottom: 0px;
+    left: 0px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background: rgba(0, 0, 0, 0.4);
+}
+.beranda .data .kotak .kotak2 i {
+    color: #fff;
+}
+
+/* pdflaporan */
+.pdflaporan h6{
+    text-align: center;
+}
+.pdflaporan .laporan{
+    width: 100%;
+    border-top: #000 solid 4px;
+    padding-top: 30px;
+}
+.pdflaporan .laporan table{
+    margin-bottom: 35px;
+    width: 100%;
+}
+.pdflaporan .laporan table tr td:nth-child(1) {
+    width: 150px;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+}
+.pdflaporan .laporan table tr td:nth-child(1) p{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+.pdflaporan .laporan table tr td:nth-child(2) {
+    padding-left: 7px;
+}
